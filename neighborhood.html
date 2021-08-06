@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>My Neighborhood</title>
+  </head>
+  <body>
+    <header>
+      <nav id="div">
+        <ol>
+          <li class="crumb"><a href="./home.html">Home</a></li>
+          <li class="crumb"><a href="./profile.html">Profile</a></li>
+          <li class="crumb">
+            <a href="./neighborhood.html">My Neighborhood</a>
+          </li>
+          <li class="crumb"><a href="./about.html">About</a></li>
+        </ol>
+      </nav>
+    </header>
+    <a href="./home.html"><< Back </a>
+
+    <!--The page should feature a short description of your neighborhood, links to local restaurants and parks, and anything else you’d like to include.
+
+Create a button that allows the user to request a random restaurant recommendation. Add an event listener in Javascript listens for a click on the button. When the button is clicked, your Javascript should call a new function that you write, which chooses a random restaurant for the user.
+
+You can read more about how to choose a random item from a Javascript array here.-->
+
+    <main><img id="hbPier" src="hb_pier.jpg" alt="Huntington Beach pier"</main>
+    <h1>Welcome to Huntington Beach</h1>
+    <ul id="restaurants">
+      <h3>Restaurants Recommendations</h3>
+      <li>
+        <a href="https://www.mangiamangiarestaurant.com/">Mangia Mangia</a>
+      </li>
+      <li><a href="https://phillygrille.com/">Johns Philly Grille</a></li>
+      <li><a href="https://dahawaiiankitchen.com/">Da Kitchen</a></li>
+      <li>
+        <a href="https://www.bellaterra-hb.com/restaurants-eateries"
+          >Restaurants in Bella Terra</a
+        >
+      </li>
+      <form>
+        <button id="restaurantButton">
+          click here if you cant decide what to eat
+        </button>
+      </form>
+    </ul>
+
+    <script src="neighborhood.js"></script>
+  </body>
+</html>
